@@ -105,8 +105,8 @@ static NSInteger LXImageViewCount = 3;
  */
 - (void)imageClick:(UITapGestureRecognizer *)tap
 {
-    if ([self.delegate respondsToSelector:@selector(inifiteScrollView:didClickImageAtIndex:)]) {
-        [self.delegate inifiteScrollView:self didClickImageAtIndex:tap.view.tag];
+    if ([self.delegate respondsToSelector:@selector(cyclicScrollView:didClickImageAtIndex:)]) {
+        [self.delegate cyclicScrollView:self didClickImageAtIndex:tap.view.tag];
     }
 }
 

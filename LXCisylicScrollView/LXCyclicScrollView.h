@@ -12,7 +12,7 @@
 
 @protocol LXCyclicScrollViewDelegate <NSObject>
 @optional
-- (void)inifiteScrollView:(LXCyclicScrollView *)cisylicScrollView didClickImageAtIndex:(NSInteger)index;
+- (void)cyclicScrollView:(LXCyclicScrollView *)cisylicScrollView didClickImageAtIndex:(NSInteger)index;
 @end
 
 typedef NS_ENUM(NSInteger, LXCyclicScrollDirection) {

@@ -38,7 +38,7 @@
 }
 
 #pragma mark - LXCisylicScrollViewDelegate
-- (void)inifiteScrollView:(LXCyclicScrollView *)cisylicScrollView didClickImageAtIndex:(NSInteger)index
+- (void)cyclicScrollView:(LXCyclicScrollView *)cisylicScrollView didClickImageAtIndex:(NSInteger)index
 {
     self.displayTextF.textAlignment = NSTextAlignmentCenter;
     self.displayTextF.text = [NSString stringWithFormat:@"点击了第%zd个图片", index];
