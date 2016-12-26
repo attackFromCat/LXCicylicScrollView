@@ -2,7 +2,7 @@
 一款无线循环图片滚动器
 
 效果为:
-![Cyclic.gif](/Applications/文件/Cyclic.gif)
+![Cyclic.gif](http://upload-images.jianshu.io/upload_images/1358629-3dbb1346a9e172f9.gif?imageMogr2/auto-orient/strip)
 
 ```objc
 @class LXCyclicScrollView;
